@@ -1,3 +1,6 @@
+.github/
+.prettierignore
+.prettierrc
 coverage/
 **/examples/**
 **/node_modules/**
