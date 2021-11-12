@@ -1,0 +1,45 @@
+{
+  "name": "@prezly/uploads",
+  "version": "0.1.0",
+  "description": "Types and utilities to handle uploaded files & images in Prezly",
+  "author": "Ivan Voskoboinyk <ivan@voskoboinyk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prezly/uploads-js/issues"
+  },
+  "homepage": "https://github.com/prezly/uploads-js#readme",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "clean": "rimraf dist node_modules",
+    "build": "tsc --project .",
+    "start": "npm run build --incremental --watch",
+    "prettier:check": "prettier --check './src/**/*.{ts,js}'",
+    "prettier:fix": "prettier --write './src/**/*.{ts,js}'",
+    "prerelease": "npm run clean && npm install && npm run build",
+    "release": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prezly/uploads-js.git"
+  },
+  "keywords": [
+    "prezly",
+    "typescript",
+    "api",
+    "upload",
+    "image",
+    "file"
+  ],
+  "devEngines": {
+    "node": ">=14.0",
+    "npm": ">=6.14"
+  },
+  "devDependencies": {
+    "np": "^7.5.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4"
+  }
+}

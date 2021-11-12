@@ -1,0 +1,10 @@
+coverage/
+**/examples/**
+**/node_modules/**
+*.eslintcache
+*.db
+*.log
+*.zip
+*.txt
+*.test.ts
+*.test.tsx
