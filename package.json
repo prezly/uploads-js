@@ -9,9 +9,6 @@
   },
   "homepage": "https://github.com/prezly/uploads-js#readme",
   "main": "dist/index.js",
-  "files": [
-    "dist/**"
-  ],
   "scripts": {
     "clean": "rimraf dist node_modules",
     "build": "tsc --project .",
