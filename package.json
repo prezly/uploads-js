@@ -1,6 +1,6 @@
 {
   "name": "@prezly/uploads",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Types and utilities to handle uploaded files & images in Prezly",
   "author": "Ivan Voskoboinyk <ivan@voskoboinyk.com>",
   "license": "MIT",
