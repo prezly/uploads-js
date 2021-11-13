@@ -13,6 +13,7 @@
   "scripts": {
     "clean": "rimraf dist node_modules",
     "build": "tsc --project .",
+    "test": "echo 'Sorry no tests yet'",
     "start": "npm run build --incremental --watch",
     "prettier:check": "prettier --check './src/**/*.{ts,js}'",
     "prettier:fix": "prettier --write './src/**/*.{ts,js}'",
