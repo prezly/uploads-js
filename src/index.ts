@@ -1,2 +1,2 @@
-export * from './types';
-export * from './guards';
+export { UploadedFile, UploadedImage } from './types';
+export { isUploadedFile, isUploadedImage } from './guards';

@@ -1,2 +1,2 @@
-export * from './isUploadedFile';
-export * from './isUploadedImage';
+export { isUploadedFile } from './isUploadedFile';
+export { isUploadedImage } from './isUploadedImage';
