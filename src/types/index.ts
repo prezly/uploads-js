@@ -1,2 +1,2 @@
-export { UploadedFile } from './UploadedFile';
-export { UploadedImage } from './UploadedImage';
+export type { UploadedFile } from './UploadedFile';
+export type { UploadedImage } from './UploadedImage';

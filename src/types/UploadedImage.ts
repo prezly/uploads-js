@@ -1,4 +1,4 @@
-import { UploadedFile } from './UploadedFile';
+import type { UploadedFile } from './UploadedFile';
 
 export interface UploadedImage extends UploadedFile {
     /**
