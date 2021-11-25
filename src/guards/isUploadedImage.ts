@@ -1,5 +1,5 @@
 import { isUploadedFile } from './isUploadedFile';
-import { UploadedImage } from '../types';
+import type { UploadedImage } from '../types';
 
 function isNonEmptyString(value: unknown): boolean {
     return typeof value === 'string' && value.length > 0;

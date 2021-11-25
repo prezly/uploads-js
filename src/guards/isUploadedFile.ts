@@ -1,6 +1,6 @@
 import { isPlainObject } from 'is-plain-object';
 
-import { UploadedFile } from '../types';
+import type { UploadedFile } from '../types';
 
 export function isUploadedFile(file: any | undefined): file is UploadedFile {
     return (
