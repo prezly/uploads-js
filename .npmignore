@@ -11,3 +11,5 @@ coverage/
 *.txt
 *.test.ts
 *.test.tsx
+.nvmrc
+babel.*.config.json
