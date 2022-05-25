@@ -1,5 +1,3 @@
-import { isPlainObject } from 'is-plain-object';
-
 import type { UploadedFile } from '../types';
 import { isObject } from './isObject';
 
