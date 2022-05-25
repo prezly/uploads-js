@@ -1,12 +1,10 @@
-import { isPlainObject } from 'is-plain-object';
-
 import type { UploadedFile } from '../types';
+import { isObject } from './isObject';
 
-export function isUploadedFile(file: Record<string, any> | undefined | null): file is UploadedFile {
+export function isUploadedFile(file: unknown): file is UploadedFile {
     return (
-        typeof file === 'object' &&
-        isPlainObject(file) &&
-        typeof file?.uuid === 'string' &&
+        isObject(file) &&
+        typeof file.uuid === 'string' &&
         typeof file.version === 'number' &&
         typeof file.size === 'number' &&
         typeof file.mime_type === 'string' &&
